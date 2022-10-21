@@ -24,11 +24,11 @@
         </div>
         <div>
             <label for="password">Password:</label>
-            <input id="password" type="text">
+            <input id="password" type="password">
         </div>
         <div>
             <label for="repeatPassword">Repeat Password:</label>
-            <input id="repeatPassword" type="text">
+            <input id="repeatPassword" type="password">
         </div>
         <div>
             <label for="checkbox">Accept terms and conditions</label>
@@ -36,6 +36,10 @@
         </div>
         <button type="submit" value="check">Submit</button>
         
+        <div class="validation-feedback">
+            <p id="errorMessage" class="d-none">Alla fält måste vara korrekt ifyllda!</p>
+          </div>
+
     </form>
     
     <script src="script.js"></script>
